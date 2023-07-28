@@ -1,0 +1,2 @@
+PROMPT="[%n@%m:%~] "
+PS1="%F{cyan}[%n%{$rc%}%F{yellow}@%F{green}%m%{$rc%}:%F{magenta}%~] # "
