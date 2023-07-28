@@ -20,3 +20,4 @@ cd ~
 git clone git@github.com:siekman-io/dotfiles-servers.git
 
 echo "source ~/dotfiles-servers/.bash_aliases" >> ~/.bashrc
+echo "source ~/dotfiles-servers/.bash_prompt" >> ~/.bashrc
