@@ -12,7 +12,7 @@
 ## MY SERVER ALIAS FILE
 #####################################################
 
-
+alias pop='echo hoi hoi'
 
 # Personal Settings
 alias sshl='ssh-add -L'
