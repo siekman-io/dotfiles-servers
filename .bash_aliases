@@ -9,11 +9,10 @@
 #             Netherlands 2023 Leerbroek
 #                https://siekman.io
 #####################################################
-## MY ALIAS FILE
+## MY SERVER ALIAS FILE
 #####################################################
 
-# Test
-hoi hoi
+
 
 # Personal Settings
 alias sshl='ssh-add -L'
