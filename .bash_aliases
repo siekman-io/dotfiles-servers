@@ -12,7 +12,6 @@
 ## MY SERVER ALIAS FILE
 #####################################################
 
-alias pop='echo hoi hoi'
 
 # Personal Settings
 alias sshl='ssh-add -L'
@@ -29,7 +28,8 @@ DOTFILES=~/dotfiles-servers/
 
 
 ### TERMINAL COMMANDS OPTIMISATIONS ###
-
+alias dotup='cd ~/dotfiles-servers && git pull'
+alias dotinstall='echo "source ~/dotfiles-servers/.bash_aliases" >> ~/.bashrc'
 
 # Programs
 
