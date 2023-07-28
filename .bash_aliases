@@ -18,6 +18,7 @@ alias sshl='ssh-add -L'
 alias key='ssh-add ~/.ssh/js'
 
 
+
 ######## SYSTEM SETTINGS ########
 
 
@@ -26,6 +27,8 @@ DOTFILES=~/dotfiles-servers/
 
 ### INFORMATION SCRIPTS###
 
+### Sudo Helpers ###
+alias ssu='sudo -E su' #Sudo with key passtrough#
 
 ### TERMINAL COMMANDS OPTIMISATIONS ###
 alias dotup='cd ~/dotfiles-servers && git pull'
