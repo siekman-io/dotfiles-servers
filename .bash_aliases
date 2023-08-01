@@ -44,6 +44,7 @@ alias dotinstall='echo "source ~/dotfiles-servers/.bash_aliases" >> ~/.bashrc'
 
 # Navigation
 alias ~='cd ~'
+alias log='cd /var/log'
 alias home='cd /home'
 alias cd..='cd ..'
 alias ..='cd ..'
