@@ -115,6 +115,13 @@ alias 777='chmod -R 777'
 #alias brin='brew install'
 #alias brrm='brew remove'
 
+# Wordpress Cli
+alias wplist="wp plugins list --allow-root"
+alias wpins="wp plugins install activate --allow-root"
+alias wpcore="wp core update --allow-root"
+alias wpplug="wp plugin update --allow-root"
+alias wppact="wp plugin activate --allow-root"
+
 
 # Listing and search
 alias l='exa -lah --icons'
