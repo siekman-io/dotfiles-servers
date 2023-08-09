@@ -121,6 +121,7 @@ alias wpins="wp plugin install --activate --allow-root"
 alias wpcore="wp core update --allow-root"
 alias wpplug="wp plugin update --allow-root"
 alias wppact="wp plugin activate --allow-root"
+alias wpsitekit="wp plugin install --activate --allow-root site-kit"
 
 
 # Listing and search
