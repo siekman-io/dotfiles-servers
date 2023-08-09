@@ -31,7 +31,7 @@ DOTFILES=~/dotfiles-servers/
 alias ssu='sudo -E su' #Sudo with key passtrough#
 
 ### TERMINAL COMMANDS OPTIMISATIONS ###
-alias dotup='cd ~/dotfiles-servers && git pull'
+alias dotup='cd ~/dotfiles-servers && git pull && source ~/.bashrc'
 alias dotinstall='echo "source ~/dotfiles-servers/.bash_aliases" >> ~/.bashrc'
 
 # Programs
