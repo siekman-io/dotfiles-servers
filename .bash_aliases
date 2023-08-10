@@ -43,7 +43,7 @@ alias dotinstall='echo "source ~/dotfiles-servers/.bash_aliases" >> ~/.bashrc'
 #alias mc="mc --nosubshell"
 
 # Navigation
-alias -="cd -"
+alias §="cd -"
 alias ~="cd ~"
 alias log='cd /var/log'
 alias home='cd /home'
