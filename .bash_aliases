@@ -37,7 +37,7 @@ alias dotinstall='echo "source ~/dotfiles-servers/.bash_aliases" >> ~/.bashrc'
 # Programs
 
 # Program replace
-alias cat='bat'
+alias cat='batcat'
 
 # OhMyZSH
 #alias plugins='echo $plugins'
