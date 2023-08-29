@@ -129,10 +129,10 @@ alias wpsitekit="wp plugin install --activate --allow-root google-site-kit"
 
 
 # Listing and search
-alias l='exa -lah --icons'
-alias ls='exa -lah --icons'
-alias ll='exa -lah --icons'
-alias lr='exa -lah --icons'
+alias l='exa -lah --icons --group-directories-first'
+# alias ls='exa -lah --icons --group-directories-first'
+alias ll='exa -lah --icons --group-directories-first'
+alias lr='exa -lah --icons --group-directories-first'
 alias lr='exa -lRh --icons' # recursive ls
 alias cll='exa -1 --icons | wc -l'
 alias h="history | grep "
