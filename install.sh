@@ -16,8 +16,11 @@
 ## My personal Dotfiles for Servers
 #####################################################
 
-cd ~
-git clone git@github.com:siekman-io/dotfiles-servers.git
+rm ~/.bashrc 
 
-echo "source ~/dotfiles-servers/.bash_aliases" >> ~/.bashrc
-echo "source ~/dotfiles-servers/.bash_prompt" >> ~/.bashrc
+ln -s ~/dotfiles-servers/.bashrc .bashrc
+
+# Install crontab
+0 23 * * * /usr/bin/sh /opt/scripts/dyndns/dyndns.sh
+
+crontab /root/dotfiles-servers/cronjob/fwupdate
