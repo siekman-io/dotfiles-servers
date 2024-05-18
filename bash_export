@@ -24,3 +24,7 @@
 discordtoken=https://discord.com/api/webhooks/1237482581486731365/S_9efsYLH4rBLTTimtDscbBU-O_xd_ttLVuRlqBwh_qvPXp-N28yhk7kHg2LC9upwOtf
 management=management.siekman.io
 
+id=$(hostname)
+datum=$(date +%d-%m-%Y)
+tijd=$(date +"%T")
+noteadmin="Iemand logt in als root op $id \nDate: $datum | Time: $tijd "

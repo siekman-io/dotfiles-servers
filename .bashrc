@@ -30,7 +30,8 @@ fi
 export EDITOR='nano'
 export VISUAL='nano'
 
-
+# Notify server admin of a root login
+curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"$noteadmin\"}" $discordtoken
 
 # Bash Prompt
 PS1="\[\e[36m\]#\# \[\e[34m\][\[\e[m\]\\[\e[m\]\[\e[34m\]\u\[\e[m\]\[\e[33m\]@\[\e[m\]\[\e[31m\]\h\[\e[m\]\[\e[32m\]:\[\e[m\]\[\e[32m\]\w\[\e[m\]\[\e[32m\]]\[\e[m\]"
