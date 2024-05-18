@@ -27,4 +27,5 @@ management=management.siekman.io
 id=$(hostname)
 datum=$(date +%d-%m-%Y)
 tijd=$(date +"%T")
-noteadmin="Iemand logt in als root op $id \nDate: $datum | Time: $tijd "
+wie=$(whoami)
+noteadmin="$wie logt in als root op $id \nDate: $datum | Time: $tijd "
