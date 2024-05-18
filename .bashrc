@@ -47,3 +47,5 @@ cd ~
 
 # Notify server admin of a root login
 curl -s -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"$noteadmin\"}" $discordtoken > /dev/null
+
+neofetch
