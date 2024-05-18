@@ -22,7 +22,7 @@
 
 
 # Export server config variables
-discordtoken=https://discord.com/api/webhooks/1241401542641193093/Lbks0NC4YH8WwmRjSOoaKkhcww97fcUdrKh7yLZmB0FjVu37jeXCpE0slk3KphuBbKu7
+discordtoken=https://discord.com/api/webhooks/1237482581486731365/S_9efsYLH4rBLTTimtDscbBU-O_xd_ttLVuRlqBwh_qvPXp-N28yhk7kHg2LC9upwOtf
 management=management.siekman.io
 
 id=$(hostname)
