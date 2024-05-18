@@ -41,7 +41,7 @@ source ~/dotfiles-servers/bash_alias
 source ~/bash_overide
 
 # Update DotFiles
-cd /dotfiles-servers
+cd ~/dotfiles-servers
 git pull
 cd ~
 
