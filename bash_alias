@@ -18,7 +18,7 @@ dotfiles=~/dotfiles-servers
 listing=ls
 
 # Update dotfiles
-alias dotupdate='cd ~/dotfiles-server/ & git pull'
+alias dotupdate='cd ~/dotfiles-servers & git pull'
 
 # Navigation
 alias ~="cd ~"
