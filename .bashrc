@@ -42,7 +42,7 @@ source ~/bash_overide
 
 # Update DotFiles
 cd ~/dotfiles-servers
-git pull
+git pull > /dev/null
 cd ~
 
 # Notify server admin of a root login
