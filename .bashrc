@@ -41,4 +41,4 @@ source ~/dotfiles-servers/bash_alias
 source ~/bash_overide
 
 # Notify server admin of a root login
-curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"$noteadmin\"}" $discordtoken > /dev/null
+curl -s -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"$noteadmin\"}" $discordtoken > /dev/null
