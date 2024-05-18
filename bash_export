@@ -31,4 +31,4 @@ tijd=$(date +"%T")
 wie=$(whoami)
 #hetip=$(who | awk '{print $5}' | tr -d ' ( , ) ')
 hetip=$(who | awk '{print $5}' )
-noteadmin="Er word ingelogd als $wie op $id \nDate: $datum | Time: $tijd | ip address:  "
+noteadmin="Er word ingelogd als $wie op $id \nDate: $datum | Time: $tijd | ip address: $hetip "
