@@ -18,7 +18,7 @@
 
 rm ~/.bashrc 
 
-ln -s ~/dotfiles-servers/.bashrc .bashrc
+ln -s ~/dotfiles-servers/.bashrc ~/.bashrc
 
 # Install cronjobs
 cat ~/dotfiles-servers/cronjob | crontab -
