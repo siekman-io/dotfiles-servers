@@ -28,4 +28,5 @@ id=$(hostname)
 datum=$(date +%d-%m-%Y)
 tijd=$(date +"%T")
 wie=$(whoami)
-noteadmin="$wie logt in als root op $id \nDate: $datum | Time: $tijd "
+hetip=$(who | awk '{print $5}' | tr -d ' ( , ) ')
+noteadmin="$wie logt in als root op $id \nDate: $datum | Time: $tijd \nVanaf ip address: $hetip "
