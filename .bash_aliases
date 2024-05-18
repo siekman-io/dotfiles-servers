@@ -16,6 +16,9 @@
 # Export
 dotfiles=~/dotfiles-servers
 
+# Update dotfiles
+alias dotupdate='cd ~/dotfiles-server/ & git pull'
+
 # Navigation
 alias ~="cd ~"
 alias cd..='cd ..'
