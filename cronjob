@@ -1,0 +1,2 @@
+0 23 * * * /root/dotfiles-servers/scripts/fwupdate.sh 2>&1
+*/1 * * * * curl -fsS -m 10 --retry 5 -o /dev/null https://hc-ping.com/7eb41a85-578c-40c3-963b-41b8b04defc6 > /var/log/healthchecks.log 2>&1
