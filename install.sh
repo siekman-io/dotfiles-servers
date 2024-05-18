@@ -19,6 +19,7 @@
 git clone https://github.com/siekman-io/dotfiles-servers.git
 rm ~/.bashrc 
 ln -s ~/dotfiles-servers/.bashrc ~/.bashrc
+touch ~/bash_overide
 
 # Install cronjobs
 # cat ~/dotfiles-servers/cronjob | crontab -
