@@ -58,5 +58,6 @@ alias mkdir='mkdir -pv'
 
 # Listing
 alias ls='$listing'
-alias ll='$listing -lah --icons --group-directories-first'
+alias ll='$listing -lah --group-directories-first'
+#alias ll='$listing -lah --icons --group-directories-first' # using exa or eza
 alias lt='$listing -aT --color=always --group-directories-first --icons' # tree listing
