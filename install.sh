@@ -16,9 +16,9 @@
 ## My personal Dotfiles for Servers
 #####################################################
 
+git clone https://github.com/siekman-io/dotfiles-servers.git
 rm ~/.bashrc 
-
 ln -s ~/dotfiles-servers/.bashrc ~/.bashrc
 
 # Install cronjobs
-cat ~/dotfiles-servers/cronjob | crontab -
+# cat ~/dotfiles-servers/cronjob | crontab -
