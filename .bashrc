@@ -38,6 +38,7 @@ PS1="\[\e[36m\]#\# \[\e[34m\][\[\e[m\]\\[\e[m\]\[\e[34m\]\u\[\e[m\]\[\e[33m\]@\[
 # Aliasses
 source ~/dotfiles-servers/bash_export
 source ~/dotfiles-servers/bash_alias
+source ~/bash_overide
 
 # Notify server admin of a root login
 curl -sw -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST --data "{\"content\": \"$noteadmin\"}" $discordtoken > /dev/null
