@@ -46,7 +46,7 @@ echo ""
 echo ""
 
 #write ip addresses to file
-for whitelist in `cat $dotfiles/scripts/management.txt` ;
+for whitelist in `cat "$dotfiles"/scripts/management.txt` ;
 do
         echo ${whitelist}
         echo "${whitelist} # MANAGMENT.SIEKMAN.IO" >> /etc/csf/management.allow
