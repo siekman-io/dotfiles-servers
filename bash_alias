@@ -63,5 +63,5 @@ alias ll='$listing -lah --color=always --group-directories-first'
 alias lt='$listing -aT --color=always --group-directories-first --icons' # tree listing
 
 # Database helpers
-alias din='mariadb -u$(cat ~/.ssh/.myusr) -p$(cat ~/.ssh/.mypwd)'
-alias dex='mariadb-dump -u$(cat ~/.ssh/.myusr) -p$(cat ~/.ssh/.mypwd)'
+alias din='mariadb -u$(cat ~/.ssh/mysql/.myusr) -p$(cat ~/.ssh/mysql/.mypwd)'
+alias dex='mariadb-dump -u$(cat ~/.ssh/mysql/.myusr) -p$(cat ~/.ssh/mysql/.mypwd)'
