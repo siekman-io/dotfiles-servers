@@ -21,5 +21,10 @@ rm ~/.bashrc
 ln -s ~/dotfiles-servers/.bashrc ~/.bashrc
 touch ~/bash_overide
 
+
+timedatectl set-timezone Europe/Amsterdam
+
 # Install cronjobs
 # cat ~/dotfiles-servers/cronjob | crontab -
+
+ko6Gesahka1eekoh8utee9Oh
