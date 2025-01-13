@@ -70,3 +70,4 @@ alias dex='mariadb-dump -u$(cat ~/.ssh/mysql/.myusr) -p$(cat ~/.ssh/mysql/.mypwd
 alias nt='nginx -t'
 alias nr='systemctl restart nginx'
 alias ns='systemctl status nginx'
+alias nconf='cd /etc/nginx/sites-available'
