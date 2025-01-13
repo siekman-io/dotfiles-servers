@@ -65,3 +65,8 @@ alias lt='$listing -aT --color=always --group-directories-first --icons' # tree 
 # Database helpers
 alias din='mariadb -u$(cat ~/.ssh/mysql/.myusr) -p$(cat ~/.ssh/mysql/.mypwd)'
 alias dex='mariadb-dump -u$(cat ~/.ssh/mysql/.myusr) -p$(cat ~/.ssh/mysql/.mypwd)'
+
+# Nginx
+alias nt='nginx -t'
+alias nr='systemctl restart nginx'
+alias ns='systemctl status nginx'
