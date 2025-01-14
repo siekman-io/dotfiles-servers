@@ -72,3 +72,6 @@ alias nr='systemctl restart nginx'
 alias ns='systemctl status nginx'
 alias nconf='cd /etc/nginx/sites-available'
 alias www='cd /var/www/html'
+
+# DirectAdmin
+alias sdns='echo "action=rewrite&value=named" >> /usr/local/directadmin/data/task.queue'
