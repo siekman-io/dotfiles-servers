@@ -16,6 +16,7 @@
 ## My personal Dotfiles for Servers
 #####################################################
 
+cd ~
 git clone https://github.com/siekman-io/dotfiles-servers.git
 rm ~/.bashrc 
 ln -s ~/dotfiles-servers/.bashrc ~/.bashrc
@@ -27,4 +28,3 @@ timedatectl set-timezone Europe/Amsterdam
 # Install cronjobs
 # cat ~/dotfiles-servers/cronjob | crontab -
 
-ko6Gesahka1eekoh8utee9Oh
