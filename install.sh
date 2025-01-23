@@ -18,13 +18,13 @@
 
 cd ~
 git clone https://github.com/siekman-io/dotfiles-servers.git
+sleep 2
 rm ~/.bashrc 
+sleep 2
 ln -s ~/dotfiles-servers/.bashrc ~/.bashrc
 touch ~/bash_overide
 
 
 timedatectl set-timezone Europe/Amsterdam
 
-# Install cronjobs
-# cat ~/dotfiles-servers/cronjob | crontab -
 
